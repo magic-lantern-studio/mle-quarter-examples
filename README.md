@@ -2,7 +2,13 @@
 Coin3D examples using the Quarter GUI
 
 The coin3d-quarter-examples project provides examples for Open Inventor programming using the Coin 3D SDK and Quarter toolkit.
+These examples were tested against older versions of Coin and Quarter and may not be relavent to the current state of the
+Coin 3D libraries.
 
-The Coin 3D library can be found on Bitbucket in the [Coin project](https://bitbucket.org/Coin3D/coin/wiki/Home). Note: this library will soon be hosted on Github - stay tuned.
+A more comprehensive collection of examples may be found at [ivexamples](https://github.com/coin3d/ivexamples), which
+are kept up to date with the latest Coin and Quarter technology.
 
-The Coin Quarter library is also located on Bitbucket under the [Quarter project](https://bitbucket.org/Coin3D/quarter/src/default/). Note: this library will also soon be hosted on Github - stay tuned.
+## Magic Lantern Dependencies
+The Coin 3D library can be found on Github in the [Coin project](https://github.com/coin3d/coin).
+
+The Coin Quarter library is also located on Quarter under the [Quarter project](https://github.com/coin3d/quarter).
