@@ -11,4 +11,4 @@ are kept up to date with the latest Coin and Quarter technology.
 ## Magic Lantern Dependencies
 The Coin 3D library can be found on Github in the [Coin project](https://github.com/coin3d/coin).
 
-The Coin Quarter library is also located on Quarter under the [Quarter project](https://github.com/coin3d/quarter).
+The Coin Quarter library is also located on Github under the [Quarter project](https://github.com/coin3d/quarter).
