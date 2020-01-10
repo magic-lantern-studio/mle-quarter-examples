@@ -1,7 +1,7 @@
-# coin3d-quarter-examples
+# mle-quarter-examples
 Coin3D examples using the Quarter GUI
 
-The coin3d-quarter-examples project provides examples for Open Inventor programming using the Coin 3D SDK and Quarter toolkit.
+The mle-quarter-examples project provides examples for Open Inventor programming using the Coin 3D SDK and Quarter toolkit.
 These examples were tested against older versions of Coin and Quarter and may not be relavent to the current state of the
 Coin 3D libraries.
 
