@@ -2,7 +2,7 @@
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2019 Wizzer Works
+// Copyright (c) 2019-2924 Wizzer Works
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -69,8 +69,11 @@ int main(int argc, char **argv)
     // ExaminerViewer.
     viewer->setNavigationModeFile(QUrl("coin:///scxml/navigation/examiner.xml"));
 
-    // Pop up the QuarterWidget
+    // Pop up the QuarterWidget.
     viewer->show();
+
+    // Set current camera position to view the entire scene graph.
+    viewer->viewAll();
 
     // Loop until exit.
     app.exec();
