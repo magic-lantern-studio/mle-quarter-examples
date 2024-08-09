@@ -2,11 +2,12 @@ win32 {
 QT += core gui opengl help
 }
 unix {
-#if QT_VERSION >= 0x060000
+equals(QT_MAJOR_VERSION, 6) {
 QT += core gui opengl openglwidgets help
-#else
+}
+equals(QT_MAJOR_VERSION, 5) {
 QT += core gui opengl help
-#endif
+}
 }
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
