@@ -19,7 +19,12 @@ SOURCES += \
 
 win32 {
     INCLUDEPATH += C:\Coin3D\include
+CONFIG(debug, debug|release) {
+    LIBS += -L"C:\Coin3D\lib" -lCoin4d -lQuarter1d
+}
+CONFIG(release, debug|release) {
     LIBS += -L"C:\Coin3D\lib" -lCoin4 -lQuarter1
+}
     DEFINES += QUARTER_NOT_DLL
 }
 unix {
